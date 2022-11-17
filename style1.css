@@ -1,0 +1,44 @@
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* to avoid the bullets */
+    list-style: none;
+    float: right;
+}
+.main-nav a {
+    /* to style the anchor tags */
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+.main-nav a:hover {
+    color: #adadad;
+}
+.main-header {
+    height: 100px;
+    /* pushes the elements as far apart as possible */
+    /* justify-content: space-between; */
+    /* align vertically */
+    letter-spacing: 2px;
+    text-align: center;
+    color: darkkhaki
+}
+input[type=text] {
+    border-radius: 100px;
+    padding: 3px;
+}
+.footer {
+    /* to fix the footer permanently at the bottom end of the webpage */
+    position: fixed;
+    bottom: 0;
+    /* contents should not stick to edges of footer */
+    /* padding: 10px 10px 0px 10px; */
+    /* align text content to center */
+    text-align: center;
+    padding-bottom: 1%;
+    width: 100%;
+    ;
+}
+div {
+    margin: 1%
