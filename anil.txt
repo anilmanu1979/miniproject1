@@ -2,6 +2,6 @@ gpt
 bagepalli
 cse
 department
+Full stack development
 5 sem students
-Collaboration (forking and pull request)
-in Github
+
